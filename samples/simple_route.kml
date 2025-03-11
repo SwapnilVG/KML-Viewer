@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Simple Route</name>
+    <Placemark>
+      <name>Start Point</name>
+      <Point>
+        <coordinates>-122.4194,37.7749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>End Point</name>
+      <Point>
+        <coordinates>-122.4783,37.8199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Route Path</name>
+      <LineString>
+        <coordinates>
+          -122.4194,37.7749,0
+          -122.4484,37.8060,0
+          -122.4783,37.8199,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml> 

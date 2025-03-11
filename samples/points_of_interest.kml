@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Points of Interest</name>
+    <Placemark>
+      <name>Single Point</name>
+      <Point>
+        <coordinates>-122.4194,37.7749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Multiple Points</name>
+      <MultiGeometry>
+        <Point>
+          <coordinates>-122.4194,37.7749,0</coordinates>
+        </Point>
+        <Point>
+          <coordinates>-122.4200,37.7750,0</coordinates>
+        </Point>
+        <Point>
+          <coordinates>-122.4180,37.7745,0</coordinates>
+        </Point>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>High Altitude Point</name>
+      <Point>
+        <coordinates>-122.4194,37.7749,1000</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml> 

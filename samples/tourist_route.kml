@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>San Francisco Tourist Route</name>
+    <Placemark>
+      <name>Fisherman's Wharf</name>
+      <Point>
+        <coordinates>-122.4169,37.8083,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pier 39</name>
+      <Point>
+        <coordinates>-122.4103,37.8087,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ghirardelli Square</name>
+      <Point>
+        <coordinates>-122.4227,37.8056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tourist Walking Route</name>
+      <LineString>
+        <coordinates>
+          -122.4169,37.8083,0
+          -122.4150,37.8085,0
+          -122.4130,37.8086,0
+          -122.4103,37.8087,0
+          -122.4120,37.8070,0
+          -122.4180,37.8065,0
+          -122.4227,37.8056,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Aquatic Park</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.4220,37.8075,0
+              -122.4200,37.8080,0
+              -122.4180,37.8070,0
+              -122.4200,37.8065,0
+              -122.4220,37.8075,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml> 

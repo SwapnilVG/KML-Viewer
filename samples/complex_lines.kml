@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Complex Lines</name>
+    <Placemark>
+      <name>Zigzag Path</name>
+      <LineString>
+        <coordinates>
+          -122.4194,37.7749,0
+          -122.4184,37.7759,0
+          -122.4174,37.7749,0
+          -122.4164,37.7759,0
+          -122.4154,37.7749,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Circular Path</name>
+      <LineString>
+        <coordinates>
+          -122.4200,37.7800,0
+          -122.4190,37.7810,0
+          -122.4180,37.7810,0
+          -122.4170,37.7800,0
+          -122.4180,37.7790,0
+          -122.4190,37.7790,0
+          -122.4200,37.7800,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Branching Paths</name>
+      <MultiGeometry>
+        <LineString>
+          <coordinates>
+            -122.4150,37.7750,0
+            -122.4140,37.7760,0
+            -122.4130,37.7770,0
+          </coordinates>
+        </LineString>
+        <LineString>
+          <coordinates>
+            -122.4140,37.7760,0
+            -122.4150,37.7770,0
+          </coordinates>
+        </LineString>
+        <LineString>
+          <coordinates>
+            -122.4140,37.7760,0
+            -122.4130,37.7760,0
+          </coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</kml> 
