@@ -28,22 +28,18 @@ A modern web application for viewing and analyzing KML (Keyhole Markup Language)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/kml-viewer.git
+git clone https://github.com/SwapnilVG/KML-Viewer.git
 cd kml-viewer
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 4. Open your browser and navigate to `http://localhost:5173`
